@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saif Syed | Portfolio</title>
+  <meta name="description" content="Single-page portfolio showcasing projects, skills, and contact information." />
+
+  <!-- Font Awesome Icons -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header + Nav (Bonus: Navigation) -->
+  <header class="site-header" id="home">
+    <nav class="nav">
+      <a class="brand" href="#home" aria-label="Go to top">
+        <span class="brand-mark">SS</span>
+        <span class="brand-text">Saif Syed</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#reflection">Reflections</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a class="btn btn-ghost" href="https://github.com/saifsyed786/01-prj-portfolio" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-github"></i> Repo
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="pill">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          HTML/CSS • AI-assisted • GitHub Pages
+        </p>
+
+        <h1>
+          Saif Syed
+          <span class="accent">Portfolio</span>
+        </h1>
+
+        <p class="hero-sub">
+          I build clean, responsive web pages with semantic HTML, consistent CSS, and a deployment-first workflow.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn" href="#projects"><i class="fa-solid fa-rocket"></i> View Projects</a>
+          <a class="btn btn-secondary" href="#contact"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+        </div>
+
+        <div class="hero-meta">
+          <a href="mailto:saif.syed@my.utsa.edu"><i class="fa-solid fa-envelope"></i> saif.syed@my.utsa.edu</a>
+          <span class="dot">•</span>
+          <a href="https://www.linkedin.com/in/tahoora-nai-1ba611329/" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+          <span class="dot">•</span>
+          <a href="https://github.com/saifsyed786" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Profile card">
+        <div class="avatar" aria-hidden="true">
+          <i class="fa-solid fa-user-astronaut"></i>
+        </div>
+        <h2>Saif Syed</h2>
+        <p class="muted">Front-end fundamentals • Clean layout • Practical execution</p>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">Week 2</div>
+            <div class="stat-label">Portfolio</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Live</div>
+            <div class="stat-label">GitHub Pages</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">+AI</div>
+            <div class="stat-label">Workflow</div>
+          </div>
+        </div>
+      </aside>
+    </section>
+  </header>
+
+  <main id="main">
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-lead">
+          I’m building front-end skills with a focus on semantic structure, responsive layout, and readable styling.
+          I use AI to speed up drafting and debugging, then validate changes by testing and explaining decisions.
+        </p>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3><i class="fa-solid fa-bullseye"></i> Focus</h3>
+            <p>Clean section structure, consistent spacing, and mobile-friendly layout.</p>
+          </div>
+          <div class="card">
+            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Workflow</h3>
+            <p>Draft → test → refine → deploy. If it breaks on mobile, it’s not done.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills (Bonus: Icons) -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-lead">Tools I’m using in this course.</p>
+
+        <div class="skills">
+          <div class="skill"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+          <div class="skill"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+          <div class="skill"><i class="fa-brands fa-js"></i><span>JavaScript (basic)</span></div>
+          <div class="skill"><i class="fa-brands fa-git-alt"></i><span>Git / GitHub</span></div>
+          <div class="skill"><i class="fa-solid fa-mobile-screen-button"></i><span>Responsive Design</span></div>
+          <div class="skill"><i class="fa-solid fa-robot"></i><span>AI-assisted Dev</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-lead">Links to my live work and source code.</p>
+
+        <div class="projects-grid">
+          <article class="project card">
+            <div class="project-top">
+              <h3>Milestone 2: Portfolio Website</h3>
+              <span class="tag tag-live"><i class="fa-solid fa-check"></i> Live</span>
+            </div>
+            <p class="muted">Single-page portfolio built with HTML/CSS, deployed on GitHub Pages.</p>
+            <div class="project-links">
+              <a class="btn btn-small" href="https://saifsyed786.github.io/01-prj-portfolio/" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+              </a>
+              <a class="btn btn-small btn-ghost" href="https://github.com/saifsyed786/01-prj-portfolio" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+            </div>
+          </article>
+
+          <article class="project card">
+            <div class="project-top">
+              <h3>Milestone 3: Intel Sustainability Timeline</h3>
+              <span class="tag"><i class="fa-solid fa-link"></i> Reference</span>
+            </div>
+            <p class="muted">Timeline page with responsive behavior and interactive cards.</p>
+            <div class="project-links">
+              <a class="btn btn-small btn-ghost" href="https://saifsyed786.github.io/02-prj-intel-sustainability/" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+              </a>
+            </div>
+          </article>
+
+          <article class="project card">
+            <div class="project-top">
+              <h3>Next Project</h3>
+              <span class="tag tag-soon"><i class="fa-solid fa-hourglass"></i> Coming soon</span>
+            </div>
+            <p class="muted">Placeholder slot for upcoming projects.</p>
+            <div class="project-links">
+              <a class="btn btn-small btn-ghost" href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reflections (Required for Week 2) -->
+    <section class="section section-alt" id="reflection">
+      <div class="container">
+        <h2 class="section-title">Reflections</h2>
+        <p class="section-lead">Week 2 reflection prompts (keep these meaningful; short answers bleed points).</p>
+
+        <div class="card">
+          <h3>Reflection: Building Websites with AI</h3>
+          <p class="muted">
+            I used AI to brainstorm section structure, generate a baseline layout, and debug CSS issues faster.
+            The key value wasn’t “writing code for me” — it was accelerating iteration: propose → test → fix.
+            I still had to validate responsiveness, correct broken paths/links, and keep the design consistent.
+          </p>
+        </div>
+
+        <div class="card" style="margin-top:12px;">
+          <h3>Reflection: Interview Question</h3>
+          <p class="muted">
+            If asked “How do you build a simple site end-to-end?”, I’d explain: define the sections, write semantic HTML,
+            style with reusable CSS patterns, test on mobile/desktop, then deploy on GitHub Pages and verify the live URL.
+            I’d highlight that deployment and testing are part of the job, not an afterthought.
+          </p>
+        </div>
+
+        <div class="card" style="margin-top:12px;">
+          <h3>Reflection: LinkedIn Post</h3>
+          <p class="muted">
+            This week I built and deployed a single-page portfolio using HTML/CSS and an AI-assisted workflow.
+            Biggest takeaway: small details (spacing, link targets, responsive layout) create “polish.”
+            Next: keep adding projects and leveling up responsive design.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-lead">Simple and direct.</p>
+
+        <div class="contact-grid">
+          <a class="contact-item" href="mailto:saif.syed@my.utsa.edu">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-value">saif.syed@my.utsa.edu</div>
+            </div>
+          </a>
+
+          <a class="contact-item" href="https://github.com/saifsyed786" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <div>
+              <div class="contact-label">GitHub</div>
+              <div class="contact-value">saifsyed786</div>
+            </div>
+          </a>
+
+          <a class="contact-item" href="https://www.linkedin.com/in/tahoora-nai-1ba611329/" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <div class="contact-value">Profile</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Saif Syed</span>
+      <span class="muted">Built with HTML/CSS • Deployed on GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector(".nav-toggle");
+    const links = document.querySelector(".nav-links");
+    toggle.addEventListener("click", () => {
+      const expanded = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!expanded));
+      links.classList.toggle("nav-links-open");
+    });
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
